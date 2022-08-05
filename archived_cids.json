@@ -1,0 +1,12 @@
+{
+	"bafybeibk4i64g6vku2rk4ap5wrrw2b3ryrr3n274vris5dmo25vuf4k3pu":{
+		"filename": "EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.zarr",
+		"preffs": "EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.preffs.parquet",
+		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/"
+	},
+	"bafybeibuydcc2iitc2pgiryupv2dwxfvtatahko6iwybgi2r4647iynghu":{
+		"filename": "EUREC4A_ICON-LES_Control_DOM02_RTTOV_gridded.zarr",
+		"preffs": "EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.preffs.parquet",
+		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/"
+	}
+}
