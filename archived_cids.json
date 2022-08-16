@@ -9,4 +9,9 @@
 		"preffs": "EUREC4A_ICON-LES_Control_DOM02_RTTOV_gridded.preffs.parquet",
 		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/"
 	}
+        "bafybeihf7po7zaibnqkhf64tputhgrq7lmqs7tge3mfugtwk5ew57e5s6m":{
+                "filename": "EUREC4A_ICON-LES_highCCN_DOM01_3D_native.zarr",
+                "preffs": "EUREC4A_ICON-LES_highCCN_DOM01_3D_native.preffs",
+                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D/"
+        }
 }
