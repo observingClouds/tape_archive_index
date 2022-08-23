@@ -1,23 +1,23 @@
 {
 	"bafybeibk4i64g6vku2rk4ap5wrrw2b3ryrr3n274vris5dmo25vuf4k3pu":{
 		"filename": "EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.zarr",
-		"preffs": "EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.preffs.parquet",
+		"preffs": "./preffs/EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.preffs.parquet",
 		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/RTTOV/"
 	},
 	"bafybeibuydcc2iitc2pgiryupv2dwxfvtatahko6iwybgi2r4647iynghu":{
 		"filename": "EUREC4A_ICON-LES_Control_DOM02_RTTOV_gridded.zarr",
-		"preffs": "EUREC4A_ICON-LES_Control_DOM02_RTTOV_gridded.preffs.parquet",
+		"preffs": "./preffs/EUREC4A_ICON-LES_Control_DOM02_RTTOV_gridded.preffs.parquet",
 		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/"
 	},
         "bafybeidqg7bsz32u4oocjlzqj7hwpxkbeyrtxzlhjee2zx2tkr67oteiym":{
                 "filename": "EUREC4A_ICON-LES_Control_DOM01_radiation_native.zarr",
-                "preffs": "EUREC4A_ICON-LES_control_DOM01_3D_native.preffs",
+                "preffs": "./preffs/EUREC4A_ICON-LES_control_DOM01_3D_native.preffs",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/3D/",
                 "comment": "During creating of cars, filename has been EUREC4A_ICON-LES_DOM01_3D.zarr"
         },
         "bafybeihf7po7zaibnqkhf64tputhgrq7lmqs7tge3mfugtwk5ew57e5s6m":{
                 "filename": "EUREC4A_ICON-LES_highCCN_DOM01_3D_native.zarr",
-                "preffs": "EUREC4A_ICON-LES_highCCN_DOM01_3D_native.preffs",
+                "preffs": "./preffs/EUREC4A_ICON-LES_highCCN_DOM01_3D_native.preffs",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D/"
         },
 }
