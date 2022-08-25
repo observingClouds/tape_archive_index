@@ -20,4 +20,10 @@
                 "preffs": "./preffs/EUREC4A_ICON-LES_highCCN_DOM01_3D_native.preffs",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D/"
         },
+	"bafybeiaepgfea7nohq5p3rpqzozzazgjee4y5pthgivq46gqwefjdo6zmq":{
+		"filename": "EUREC4A_ICON-LES_control_DOM01_radiation_native.zarr",
+                "preffs": "./preffs/EUREC4A_ICON-LES_control_DOM01_radiation_native.preffs",
+                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/radiation/",
+		"comment": "During creation of cars, filename has been EUREC4A_ICON-LES_Control_DOM01_radiation_native.zarr.zstd; bafybeiaepgfea7nohq5p3rpqzozzazgjee4y5pthgivq46gqwefjdo6zmq points to incomplete zarr (all variables missed the last about 100 timesteps, except for time itself. Missing data has been added in additionional cars with numbers 651 - 662. Preffs file includes whole dataset including added cars.)"
+	},
 }
