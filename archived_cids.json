@@ -2,28 +2,33 @@
 	"bafybeibk4i64g6vku2rk4ap5wrrw2b3ryrr3n274vris5dmo25vuf4k3pu":{
 		"filename": "EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.zarr",
 		"preffs": "./preffs/EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.preffs.parquet",
-		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/RTTOV/"
+		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/RTTOV/",
+		"linux2ipfs": "0297e30"
 	},
 	"bafybeibuydcc2iitc2pgiryupv2dwxfvtatahko6iwybgi2r4647iynghu":{
 		"filename": "EUREC4A_ICON-LES_Control_DOM02_RTTOV_gridded.zarr",
 		"preffs": "./preffs/EUREC4A_ICON-LES_Control_DOM02_RTTOV_gridded.preffs.parquet",
-		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/"
+		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/",
+                "linux2ipfs": "0297e30"
 	},
         "bafybeidqg7bsz32u4oocjlzqj7hwpxkbeyrtxzlhjee2zx2tkr67oteiym":{
                 "filename": "EUREC4A_ICON-LES_Control_DOM01_radiation_native.zarr",
                 "preffs": "./preffs/EUREC4A_ICON-LES_control_DOM01_3D_native.preffs",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/3D/",
+                "linux2ipfs": "0297e30",
                 "comment": "During creating of cars, filename has been EUREC4A_ICON-LES_DOM01_3D.zarr"
         },
         "bafybeihf7po7zaibnqkhf64tputhgrq7lmqs7tge3mfugtwk5ew57e5s6m":{
                 "filename": "EUREC4A_ICON-LES_highCCN_DOM01_3D_native.zarr",
                 "preffs": "./preffs/EUREC4A_ICON-LES_highCCN_DOM01_3D_native.preffs",
-                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D/"
+                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D/",
+                "linux2ipfs": "0297e30"
         },
 	"bafybeiaepgfea7nohq5p3rpqzozzazgjee4y5pthgivq46gqwefjdo6zmq":{
 		"filename": "EUREC4A_ICON-LES_control_DOM01_radiation_native.zarr",
                 "preffs": "zip://preffs/EUREC4A_ICON-LES_control_DOM01_radiation_native.preffs::https://zenodo.org/api/files/477b6b75-4a71-4c6b-8708-0056acd70fcf/preffs.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/radiation/",
+                "linux2ipfs": "0297e30",
 		"comment": "During creation of cars, filename has been EUREC4A_ICON-LES_Control_DOM01_radiation_native.zarr.zstd; bafybeiaepgfea7nohq5p3rpqzozzazgjee4y5pthgivq46gqwefjdo6zmq points to incomplete zarr (all variables missed the last about 100 timesteps, except for time itself. Missing data has been added in additionional cars with numbers 651 - 662. Preffs file includes whole dataset including added cars.)"
 	}
 }
