@@ -14,7 +14,7 @@
                 "linux2ipfs": "0297e30"
 	},
         "bafybeidqg7bsz32u4oocjlzqj7hwpxkbeyrtxzlhjee2zx2tkr67oteiym":{
-                "filename": "EUREC4A_ICON-LES_Control_DOM01_radiation_native.zarr",
+                "filename": "EUREC4A_ICON-LES_control_DOM01_3D_native.zarr",
 		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_3D_native.cids.json::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/cids.zip",
                 "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_3D_native.preffs::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/preffs.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/3D/",
