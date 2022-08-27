@@ -1,45 +1,45 @@
 {
 	"bafybeibk4i64g6vku2rk4ap5wrrw2b3ryrr3n274vris5dmo25vuf4k3pu":{
 		"filename": "EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.zarr",
-		"cids": "zip://EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.cids.json::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/cids.zip",
-		"preffs": "zip://EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded.preffs::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/preffs.zip",
+		"cids": "zip://EUREC4A_ICON-LES_Control_DOM01_RTTOV_gridded.cids.json::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/cids.zip",
+		"preffs": "zip://EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded.preffs::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/preffs.zip",
 		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/RTTOV/",
 		"linux2ipfs": "0297e30"
 	},
 	"bafybeibuydcc2iitc2pgiryupv2dwxfvtatahko6iwybgi2r4647iynghu":{
 		"filename": "EUREC4A_ICON-LES_Control_DOM02_RTTOV_gridded.zarr",
-		"cids": "zip://EUREC4A_ICON-LES_Control_DOM02_RTTOV_gridded.cids.json::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/cids.zip",
-		"preffs": "zip://EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded.preffs::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/preffs.zip",
+		"cids": "zip://EUREC4A_ICON-LES_Control_DOM02_RTTOV_gridded.cids.json::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/cids.zip",
+		"preffs": "zip://EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded.preffs::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/preffs.zip",
 		"tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/",
                 "linux2ipfs": "0297e30"
 	},
         "bafybeidqg7bsz32u4oocjlzqj7hwpxkbeyrtxzlhjee2zx2tkr67oteiym":{
                 "filename": "EUREC4A_ICON-LES_control_DOM01_3D_native.zarr",
-		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_3D_native.cids.json::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/cids.zip",
-                "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_3D_native.preffs::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/preffs.zip",
+		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_3D_native.cids.json::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/cids.zip",
+                "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_3D_native.preffs::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/preffs.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/3D/",
                 "linux2ipfs": "0297e30",
                 "comment": "During creating of cars, filename has been EUREC4A_ICON-LES_DOM01_3D.zarr"
         },
         "bafybeihf7po7zaibnqkhf64tputhgrq7lmqs7tge3mfugtwk5ew57e5s6m":{
                 "filename": "EUREC4A_ICON-LES_highCCN_DOM01_3D_native.zarr",
-		"cids": "zip://EUREC4A_ICON-LES_highCCN_DOM01_3D_native.cids.json::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/cids.zip",
-                "preffs": "zip://EUREC4A_ICON-LES_highCCN_DOM01_3D_native.preffs::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/preffs.zip",
+		"cids": "zip://EUREC4A_ICON-LES_highCCN_DOM01_3D_native.cids.json::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/cids.zip",
+                "preffs": "zip://EUREC4A_ICON-LES_highCCN_DOM01_3D_native.preffs::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/preffs.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D/",
                 "linux2ipfs": "0297e30"
         },
 	"bafybeiaepgfea7nohq5p3rpqzozzazgjee4y5pthgivq46gqwefjdo6zmq":{
 		"filename": "EUREC4A_ICON-LES_control_DOM01_radiation_native.zarr",
-                "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.preffs::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/preffs.zip",
-		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.cids.json::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/cids.zip",
+                "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.preffs::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/preffs.zip",
+		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.cids.json::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/cids.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/radiation/",
                 "linux2ipfs": "0297e30",
 		"comment": "During creation of cars, filename has been EUREC4A_ICON-LES_Control_DOM01_radiation_native.zarr.zstd; bafybeiaepgfea7nohq5p3rpqzozzazgjee4y5pthgivq46gqwefjdo6zmq points to incomplete zarr (all variables missed the last about 100 timesteps, except for time itself. Missing data has been added in additionional cars with numbers 651 - 662. Preffs file includes whole dataset including added cars.)"
 	},
 	"bafybeihhlu37kpqsj75oocol372gbdxhkmtxq7bphayr5rtnypv42soad4":{
                 "filename": "EUREC4A_ICON-LES_control_DOM01_surface_native.zarr",
-		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_surface_native.cids.json::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/cids.zip",
-                "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_surface_native.preffs::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/preffs.zip",
+		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_surface_native.cids.json::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/cids.zip",
+                "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_surface_native.preffs::https://zenodo.org/api/files/1d185240-3cd2-4b88-a7e6-a962ae359340/preffs.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/surface/",
                 "linux2ipfs": "e99b191",
 	"bafybeihrmsowpkbeox5bp4doxaj2lnz23uoxhkzeq6wjnjg6dgpo2mo37e":{
