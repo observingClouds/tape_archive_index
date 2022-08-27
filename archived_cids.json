@@ -41,11 +41,5 @@
 		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_surface_native.cids.json::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/cids.zip",
                 "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_surface_native.preffs::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/preffs.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/surface/",
-                "linux2ipfs": "e99b191",
-	"bafybeihrmsowpkbeox5bp4doxaj2lnz23uoxhkzeq6wjnjg6dgpo2mo37e":{
-		"filename": "EUREC4A_ICON-LES_control_DOM02_surface_native.zarr",
-                "cids": "zip://EUREC4A_ICON-LES_control_DOM02_surface_native.cids.json::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/cids.zip",
-                "preffs": "zip://EUREC4A_ICON-LES_control_DOM02_surface_native.preffs::https://zenodo.org/api/files/687dcffb-3e18-46dc-b034-ebeff2b59aea/preffs.zip",
-                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/surface/",
                 "linux2ipfs": "e99b191"
 }
