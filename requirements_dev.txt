@@ -1,0 +1,10 @@
+numpy
+pandas
+pyarrow
+fsspec
+black
+flake8
+isort
+pytest
+requests
+aiohttp

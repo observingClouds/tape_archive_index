@@ -1,0 +1,26 @@
+name: Test
+
+on: 
+  pull_request: {}
+  push:
+    branches: master
+    tags: "*"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies with pipenv
+        run: |
+          pip install -r requirements_dev.txt
+      - run: isort --recursive --diff .
+      - run: black --check .
+      - run: flake8
+      - run: pytest
