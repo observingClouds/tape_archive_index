@@ -4,5 +4,5 @@ fsspec
 black
 flake8
 isort
-mpypy
+mypy
 pytest
