@@ -32,3 +32,11 @@ repos:
     entry: pipenv run pytest
     types: [python]
     pass_filenames: false
+
+  - id: pytest-json
+    name: pytest-json
+    stages: [commit]
+    language: system
+    entry: pipenv run pytest
+    types: [json]
+    pass_filenames: false
