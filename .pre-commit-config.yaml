@@ -38,5 +38,5 @@ repos:
     stages: [commit]
     language: system
     entry: pipenv run pytest
-    files: archived_cids.json
-    types_or: [json]
+    types: [json]
+    pass_filenames: false
