@@ -23,5 +23,4 @@ jobs:
       - run: isort --recursive --diff .
       - run: black --check .
       - run: flake8
-      - run: mypy
       - run: pytest
