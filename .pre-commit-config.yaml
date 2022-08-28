@@ -3,6 +3,7 @@ repos:
 - repo: local
   hooks:
   - id: isort
+    args: ["--profile", "black"]
     name: isort
     stages: [commit]
     language: system
