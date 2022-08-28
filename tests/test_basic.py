@@ -33,7 +33,9 @@ def test_preffs_duplicate():
     content_hashes = []
     for cid, props in r.items():
         preffs = pd.read_parquet(props["preffs"])
-        content_test_hash = hashlib.sha1(np.asarray(preffs.tail().values, order="C")).hexdigest()
+        content_test_hash = hashlib.sha1(
+            np.asarray(preffs.tail().values, order="C")
+        ).hexdigest()
         if content_test_hash in content_hashes:
             raise ValueError("preffs file seem to be used in several entries")
         content_hashes.append(content_test_hash)
