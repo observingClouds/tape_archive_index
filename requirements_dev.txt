@@ -1,0 +1,10 @@
+json
+pandas
+pyarrow
+fsspec
+hashlib
+black
+flake8
+isort
+mpypy
+pytest
