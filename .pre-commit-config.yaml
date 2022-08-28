@@ -38,4 +38,5 @@ repos:
     stages: [commit]
     language: system
     entry: pipenv run pytest
+    files: /
     types_or: [json]
