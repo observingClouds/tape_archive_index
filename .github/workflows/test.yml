@@ -20,8 +20,8 @@ jobs:
       - name: Install dependencies with pipenv
         run: |
           pip install -r requirements_dev.txt
-      - run: pipenv run isort --recursive --diff .
-      - run: pipenv run black --check .
-      - run: pipenv run flake8
-      - run: pipenv run mypy
-      - run: pipenv run pytest
+      - run: isort --recursive --diff .
+      - run: black --check .
+      - run: flake8
+      - run: mypy
+      - run: pytest
