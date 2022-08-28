@@ -49,5 +49,19 @@
                 "preffs": "zip://EUREC4A_ICON-LES_control_DOM02_surface_native.preffs::simplecache::https://zenodo.org/api/files/3af14629-83cb-4b3c-a917-44ffa8997df3/preffs.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/surface/",
                 "linux2ipfs": "e99b191"
+	},
+	"bafybeidcin5sy7ynvge3xcbjjf3ubkim3p2d4pip6vo5yfg2uiof73d5xi":{
+		"filename": "EUREC4A_ICON-LES_control_DOM01_reff_native.zarr",
+                "cids": "zip://EUREC4A_ICON-LES_control_DOM01_reff_native.cids.json::simplecache::https://zenodo.org/api/files/20826d86-bf68-498a-aab8-ebebd751bbb7/cids.zip",
+                "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/20826d86-bf68-498a-aab8-ebebd751bbb7/preffs.zip",
+                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/reff/",
+                "linux2ipfs": "e99b191"
+	},
+        "bafybeigtiddyz4bjaxgxkpawzry6ayrmgpcizn4a73dauv2jxieig5qbke":{
+                "filename": "EUREC4A_ICON-LES_control_DOM02_reff_native.zarr",
+                "cids": "zip://EUREC4A_ICON-LES_control_DOM02_reff_native.cids.json::simplecache::https://zenodo.org/api/files/20826d86-bf68-498a-aab8-ebebd751bbb7/cids.zip",
+                "preffs": "zip://EUREC4A_ICON-LES_control_DOM02_reff_native.preffs::simplecache::https://zenodo.org/api/files/20826d86-bf68-498a-aab8-ebebd751bbb7/preffs.zip",
+                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/reff/",
+                "linux2ipfs": "e99b191"
 	}
 }
