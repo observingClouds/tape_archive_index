@@ -1,10 +1,14 @@
-# Collection of reference files of data primarily archived on 📼 at DKRZ
+# Collection of references to data archived on 📼 at DKRZ
 ![Check](https://github.com/observingclouds/tape_archive_index/actions/workflows/test.yml/badge.svg) [![Reference files](https://img.shields.io/badge/reference%20files-10.5281%2Fzenodo.7017188-blue)](https://doi.org/10.5281/zenodo.7017188)
 
-Repository containing parquet-reference files to open `zarr`-files packed as `car`-collections and saved on tape.
+Repository containing parquet-reference files to `zarr`-files packed as `car`-collections and stored on tape.
 
-## How to access zarr-files
+## Application
+This repository contains a look-up table of CIDs of data that is saved on the DKRZ tape archive. A user who is interested in working with the data behind a specific CID should however first try to get the content via the IPFS network or the resources given in the [EUREC4A-Intake catalog](https://github.com/eurec4a/eurec4a-intake) (currently only EUREC4A simulations are referenced here). If the dataset cannot be found, the steps described below can be followed to retrieve the data from the tape archive (access rights necessary).
 
+This repository also offers the possibility to integrate the tape archive into the IPFS network by providing the interface between the content identifiers and the archives on tape that would need to be loaded onto an IPFS node.
+
+## How to access files
 To access the referenced zarr files, the following steps need to be done:
 
 1. Get the Content-Identifier (CID) of the data of interest
