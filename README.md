@@ -22,7 +22,7 @@ To access the referenced zarr files, the following steps need to be done:
     import json
     import pandas as pd
     with open("archived_cids.json") as f:
-    cids = json.load(f)
+        cids = json.load(f)
     metadata = cids[cid]
     references = pd.read_parquet(metadata["preffs"])
     ```
