@@ -26,7 +26,7 @@ To access the referenced zarr files, the following steps need to be done:
     metadata = cids[cid]
     references = pd.read_parquet(metadata["preffs"])
     ```
-3. Get the referenced files that contain the actual data
+3. Get a list of referenced files that contain the actual data
     These will be in most cases `car` files
     ```python
     files_to_retrieve = pd.unique(references.path)
@@ -35,13 +35,49 @@ To access the referenced zarr files, the following steps need to be done:
 4. Retrieve files from tape
     Note that the following steps are not possible on the login node and another partition has to be chosen with e.g. `salloc --partition=shared --mem=6GB --nodes=1 --time=02:00:00 --account <ACCOUNT>`
     ```python
+    import re
     import subprocess
+    import numpy as np
+    
     target_dir = "/scratch/m/mXXXXXX/"
     path_on_tape = metadata["tape_archive_prefix"]
-    for file in files_to_retrieve:
-      subprocess.check_output(f"module load slk; slk retrieve {path_on_tape}{file} {target_dir}", shell=True)
+
+    def create_search_pattern(files):
+    """Create simple regexp from given list of files
+
+    >>> files = ['file001.txt', 'file002.txt', 'file100.txt']
+    >>> create_search_pattern(files)
+    'file[0-9]0[0-9].txt'
+    """
+    if len(files) == 1 or isinstance(files, str):
+        return files
+    char_array = np.array([list(file) for file in files])
+    check = lambda x: len(set(x)) == 1
+    mask_differences = np.apply_along_axis(check, 0, char_array)
+    idx_differences = list(np.hstack(np.argwhere(mask_differences == False)))
+    pattern = files[0]
+    regex = '[0-9]'
+    parts = [pattern[i:j] for i,j in zip([0]+idx_differences, idx_differences[0:]+[None])]
+    for i in range(1,len(parts)):
+        parts[i] = regex+parts[i][1:]
+    return ''.join(parts)
+    
+    def search(path_on_tape, regex):
+    """Search for given regex on tape and return search id
+    """
+    search_instruction = '{"$and": [{"path": {"$gte": "'+path_on_tape+'", "$max_depth": 1}}, {"resources.name": {"$regex": "'+regex+'"}}]}'
+    result = subprocess.check_output(f"module load slk; slk_helpers search_limited '{search_instruction}'", shell=True).decode()
+    id_idx = result.find('Search ID:')
+    search_id = int(''.join(re.findall(r"[0-9]", result[id_idx:])))
+    return search_id
+    
+    regex = create_search_pattern(files_to_retrieve)
+    search_instruction = '{"$and": [{"path": {"$gte": "'+path_on_tape+'", "$max_depth": 1}}, {"resources.name": {"$regex": "'+regex+'"}}]}'
+    result = subprocess.check_output(f"module load slk; slk_helpers search_limited '{search_instruction}'", shell=True)
+    search_id = search(path_on_tape,regex)
+    
+    subprocess.check_output(f"module load slk; slk retrieve {search_id} {target_dir}")
     ```
-    Please note that this retrieval command is not optimal as described in the [DKRZ-Resources](https://docs.dkrz.de/doc/datastorage/hsm/retrievals.html#aggregate-file-retrievals).
 
 5. Open the reference filesystem
     ```python
