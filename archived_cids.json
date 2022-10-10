@@ -68,7 +68,14 @@
                 "filename": "EUREC4A_ICON-LES_control_DOM02_reff_native.zarr",
                 "cids": "zip://EUREC4A_ICON-LES_control_DOM02_reff_native.cids.json::simplecache::https://zenodo.org/api/files/5f4c0456-5b37-4b4c-860a-2233ea19f3a0/cids.zip",
                 "preffs": "zip://EUREC4A_ICON-LES_control_DOM02_reff_native.preffs::simplecache::https://zenodo.org/api/files/5f4c0456-5b37-4b4c-860a-2233ea19f3a0/preffs.zip",
-                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/reff",
+                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/reff",
+                "linux2ipfs": "e99b191"
+        },
+        "bafybeiaguhhryjzh2u2cknsvupouem4d2i3y4bpjdky7mmmrgltd5xu5ni":{
+                "filename": "EUREC4A_ICON-LES_highCCN_DOM01_reff_native.zarr",
+                "cids": "zip://EUREC4A_ICON-LES_highCCN_DOM01_reff_native.cids.json::simplecache::https://zenodo.org/api/files/d38604dc-84a3-44ac-aad1-75bcd2d01a64/cids.zip",
+                "preffs": "zip://EUREC4A_ICON-LES_highCCN_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/d38604dc-84a3-44ac-aad1-75bcd2d01a64/preffs.zip",
+                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/reff",
                 "linux2ipfs": "e99b191"
 	}
 }
