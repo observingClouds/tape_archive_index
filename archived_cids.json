@@ -48,7 +48,8 @@
 		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_surface_native.cids.json::simplecache::https://zenodo.org/api/files/d5ad19f3-d541-475b-9851-223570c8a8ff/cids.zip",
                 "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_surface_native.preffs::simplecache::https://zenodo.org/api/files/d5ad19f3-d541-475b-9851-223570c8a8ff/preffs.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/surface",
-                "linux2ipfs": "e99b191"
+                "linux2ipfs": "e99b191",
+		"fully tested": True
 	},
 	"bafybeihrmsowpkbeox5bp4doxaj2lnz23uoxhkzeq6wjnjg6dgpo2mo37e":{
 		"filename": "EUREC4A_ICON-LES_control_DOM02_surface_native.zarr",
