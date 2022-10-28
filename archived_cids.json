@@ -25,7 +25,7 @@
                 "filename": "EUREC4A_ICON-LES_control_DOM02_3D_native.zarr",
                 "cids": "zip://EUREC4A_ICON-LES_control_DOM02_3D_native.cids.json::simplecache::https://zenodo.org/api/files/d5ad19f3-d541-475b-9851-223570c8a8ff/cids.zip",
                 "preffs": "zip://EUREC4A_ICON-LES_control_DOM02_3D_native.preffs::simplecache::https://zenodo.org/api/files/d5ad19f3-d541-475b-9851-223570c8a8ff/preffs.zip",
-                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/3D",
+                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/3D",
                 "linux2ipfs": "e99b191"
         },
         "bafybeihf7po7zaibnqkhf64tputhgrq7lmqs7tge3mfugtwk5ew57e5s6m":{
