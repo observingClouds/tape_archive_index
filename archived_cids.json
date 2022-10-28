@@ -64,7 +64,8 @@
                 "cids": "zip://EUREC4A_ICON-LES_control_DOM01_reff_native.cids.json::simplecache::https://zenodo.org/api/files/d5ad19f3-d541-475b-9851-223570c8a8ff/cids.zip",
                 "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/d5ad19f3-d541-475b-9851-223570c8a8ff/preffs.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/reff",
-                "linux2ipfs": "e99b191"
+                "linux2ipfs": "e99b191",
+		"fully tested": "True"
 	},
         "bafybeigtiddyz4bjaxgxkpawzry6ayrmgpcizn4a73dauv2jxieig5qbke":{
                 "filename": "EUREC4A_ICON-LES_control_DOM02_reff_native.zarr",
