@@ -84,5 +84,6 @@ To access the referenced zarr files, the following steps need to be done:
 5. Open the reference filesystem
     ```python
     import xarray as xr
-    ds = xr.open_zarr(f"preffs::{metadata["preffs"]}")
+    storage_options = {"preffs":{"prefix":"/path/to/directory/with/car/files/"}}
+    ds = xr.open_zarr(f"preffs::{metadata["preffs"]}", storage_options=storage_options)
     ```
