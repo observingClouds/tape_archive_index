@@ -49,7 +49,9 @@ To access the referenced zarr files, the following steps need to be done:
         >>> create_search_pattern(files)
         'file[0-9]0[0-9].txt'
         """
-        if len(files) == 1 or isinstance(files, str):
+        if len(files) == 1:
+            return files[0]
+        elif isinstance(files, str):
             return files
         char_array = np.array([list(file) for file in files])
         check = lambda x: len(set(x)) == 1
