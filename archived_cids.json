@@ -19,7 +19,8 @@
                 "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_3D_native.preffs::simplecache::https://zenodo.org/api/files/d5ad19f3-d541-475b-9851-223570c8a8ff/preffs.zip",
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/3D",
                 "linux2ipfs": "0297e30",
-		"comment": "During creating of cars, filename has been EUREC4A_ICON-LES_DOM01_3D.zarr"
+		"comment": "During creating of cars, filename has been EUREC4A_ICON-LES_DOM01_3D.zarr",
+		"fully tested": "True"
 	},
 	"bafybeihgzion6gzaide6gifedigfh6h67jlxrbvi5ylhp6dqzqcixugbgq":{
                 "filename": "EUREC4A_ICON-LES_control_DOM02_3D_native.zarr",
