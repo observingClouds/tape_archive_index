@@ -72,11 +72,17 @@ To access the referenced zarr files, the following steps need to be done:
         id_idx = result.find('Search ID:')
         search_id = int(''.join(re.findall(r"[0-9]", result[id_idx:])))
         return search_id
+
+    def ensure_preferred_sharding(dir):
+        """Ensure preffered sharding of target directory is set
+        """
+        subprocess.call(f"lfs setstripe -E 1G -c 1 -S 1M -E 4G -c 4 -S 1M -E -1 -c 8 -S 1M {dir}", shell=True)
     
     regex = create_search_pattern(files_to_retrieve)
     search_instruction = '{"$and": [{"path": {"$gte": "'+path_on_tape+'", "$max_depth": 1}}, {"resources.name": {"$regex": "'+regex+'"}}]}'
     result = subprocess.check_output(f"module load slk; slk_helpers search_limited '{search_instruction}'", shell=True)
     search_id = search(path_on_tape,regex)
+    ensure_preffered_sharding(target_dir)
     
     subprocess.check_output(f"module load slk; slk retrieve -s {search_id} {target_dir}")
     ```
