@@ -78,7 +78,7 @@ To access the referenced zarr files, the following steps need to be done:
     result = subprocess.check_output(f"module load slk; slk_helpers search_limited '{search_instruction}'", shell=True)
     search_id = search(path_on_tape,regex)
     
-    subprocess.check_output(f"module load slk; slk retrieve {search_id} {target_dir}")
+    subprocess.check_output(f"module load slk; slk retrieve -s {search_id} {target_dir}")
     ```
 
 5. Open the reference filesystem
