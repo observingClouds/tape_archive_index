@@ -1,0 +1,8 @@
+{
+	"EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/3D",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM02_3D_native.tar",
+		"comment":"qr and cloud_num were missing in the car files of record (bafybeihgzion6gzaide6gifedigfh6h67jlxrbvi5ylhp6dqzqcixugbgq). These variables are included in these indexed tar files",
+		"preffs":"EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs"
+	}
+}
