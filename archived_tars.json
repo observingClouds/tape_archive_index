@@ -4,5 +4,14 @@
 		"filename_fmt":"EUREC4A_ICON-LES_control_DOM02_3D_native.tar",
 		"comment":"qr and cloud_num were missing in the car files of record (bafybeihgzion6gzaide6gifedigfh6h67jlxrbvi5ylhp6dqzqcixugbgq). These variables are included in these indexed tar files",
 		"preffs":"EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs"
+	},
+	"EUREC4A_ICON-LES_highCCN_DOM01_3D_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D",
+		"filename_fmt":"EUREC4A_ICON-LES_highCCN_DOM01_3D_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+			"var": ["coords", "u", "v", "w", "temp", "theta_v", "tke", "rho", "pres", "qi", "qr", "qv", "qc", "div", "cloud_num"]
+		},
+		"preffs":"EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section."
 	}
 }
