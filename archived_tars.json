@@ -21,6 +21,6 @@
                         "var": ["coords", "u", "v", "w", "temp", "theta_v", "tke", "rho", "pres", "qi", "qr", "qv", "qc", "div", "cloud_num"]
                 },
 		"preffs":"EUREC4A_ICON-LES_highCCN_DOM02_3D_native.tar.preffs",
-		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section."
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Tested locally tar vs original nc."
 	}
 }
