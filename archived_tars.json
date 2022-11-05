@@ -22,5 +22,15 @@
                 },
 		"preffs":"EUREC4A_ICON-LES_highCCN_DOM02_3D_native.tar.preffs",
 		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Currently being tested locally tar vs original nc."
+	},
+	"EUREC4A_ICON-LES_control_DOM01_radiation_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/radiation",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM01_radiation_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+                        "var": ["coords", "thb_t", "sou_t", "sob_t", "sod_t", "ddt_temp_radsw", "ddt_temp_radlw", "lwflx_dn", "lwflx_dn_clr", "lwflx_up", "lwflx_up_clr"]
+		},
+		"preffs":"EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files"
 	}
+
 }
