@@ -39,7 +39,7 @@
                         "var": ["coords", "u_10m", "v_10m", "rh_2m", "t_2m", "qv_2m", "t_seasfc", "shfl_s", "lhfl_s", "tqv_dia", "tqc_dia", "rain_gsp_rate", "tot_prec", "clct", "pres_sfc"]
 		},
 		"preffs":"EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs",
-		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files."
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
 	},
 	"EUREC4A_ICON-LES_highCCN_DOM02_surface_native":{
                 "tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/surface",
@@ -48,6 +48,6 @@
                         "var": ["coords", "u_10m", "v_10m", "rh_2m", "t_2m", "qv_2m", "t_seasfc", "shfl_s", "lhfl_s", "tqv_dia", "tqc_dia", "rain_gsp_rate", "tot_prec", "clct", "pres_sfc"]
                 },
                 "preffs":"EUREC4A_ICON-LES_highCCN_DOM02_surface_native.tar.preffs",
-                "comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section.Not yet testesd."
+                "comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Checksums of local and archived tars matched."
 	}
 }
