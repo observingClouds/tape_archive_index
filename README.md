@@ -47,28 +47,18 @@ To access the referenced zarr files, the following steps need to be done:
 
         >>> files = ['file001.txt', 'file002.txt', 'file100.txt']
         >>> create_search_pattern(files)
-        'file[0-9]0[0-9].txt'
+        'file001.txt|file002.txt|file100.txt'
         """
-        if len(files) == 1:
-            return files[0]
-        elif isinstance(files, str):
+        if isinstance(files, str):
             return files
-        char_array = np.array([list(file) for file in files])
-        check = lambda x: len(set(x)) == 1
-        mask_differences = np.apply_along_axis(check, 0, char_array)
-        idx_differences = list(np.hstack(np.argwhere(mask_differences == False)))
-        pattern = files[0]
-        regex = '[0-9]'
-        parts = [pattern[i:j] for i,j in zip([0]+idx_differences, idx_differences[0:]+[None])]
-        for i in range(1,len(parts)):
-            parts[i] = regex+parts[i][1:]
-        return ''.join(parts)
+        else:
+            return '|'.join(files)
     
     def search(path_on_tape, regex):
         """Search for given regex on tape and return search id
         """
-        search_instruction = '{"$and": [{"path": {"$gte": "'+path_on_tape+'", "$max_depth": 1}}, {"resources.name": {"$regex": "'+regex+'"}}]}'
-        result = subprocess.check_output(f"module load slk; slk_helpers search_limited '{search_instruction}'", shell=True).decode()
+        search_instruction = '{"$and":[{"path":{"$gte":"'+path_on_tape+'","$max_depth":1}},{"resources.name":{"$regex":"'+regex+'"}}]}'
+        result = subprocess.check_output(f"module load slk; slk search '{search_instruction}'", shell=True).decode()
         id_idx = result.find('Search ID:')
         search_id = int(''.join(re.findall(r"[0-9]", result[id_idx:])))
         return search_id
@@ -79,8 +69,6 @@ To access the referenced zarr files, the following steps need to be done:
         subprocess.call(f"lfs setstripe -E 1G -c 1 -S 1M -E 4G -c 4 -S 1M -E -1 -c 8 -S 1M {dir}", shell=True)
     
     regex = create_search_pattern(files_to_retrieve)
-    search_instruction = '{"$and": [{"path": {"$gte": "'+path_on_tape+'", "$max_depth": 1}}, {"resources.name": {"$regex": "'+regex+'"}}]}'
-    result = subprocess.check_output(f"module load slk; slk_helpers search_limited '{search_instruction}'", shell=True)
     search_id = search(path_on_tape,regex)
     ensure_preffered_sharding(target_dir)
     
