@@ -9,7 +9,7 @@ sources:
     args:
       consolidated: true
       urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs.zip
-		  storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/surface/'}}
+      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/surface/'}}
     description: EUREC4A ICON-LES highCCN DOM1 surface fields
     driver: zarr
 
@@ -21,11 +21,11 @@ sources:
     description: EUREC4A ICON-LES highCCN DOM2 surface fields
     driver: zarr
 
-	"EUREC4A_ICON-LES_highCCN_DOM01_3D_native":
+  "EUREC4A_ICON-LES_highCCN_DOM01_3D_native":
     args:
       consolidated: true
       urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs.zip
-		  storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D/'}}
+      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D/'}}
     description: EUREC4A ICON-LES highCCN DOM1 3D fields
     driver: zarr
     
@@ -41,7 +41,7 @@ sources:
     args:
       consolidated: true
       urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs.zip
-		  storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/radiation/'}}
+      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/radiation/'}}
     description: EUREC4A ICON-LES control DOM1 radiation fields
     driver: zarr
 
