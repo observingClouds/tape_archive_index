@@ -1,15 +1,49 @@
 # Collection of references to data archived on 📼 at DKRZ
 ![Check](https://github.com/observingclouds/tape_archive_index/actions/workflows/test.yml/badge.svg) [![Reference files](https://img.shields.io/badge/reference%20files-10.5281%2Fzenodo.7017188-blue)](https://doi.org/10.5281/zenodo.7017188)
 
-Repository containing parquet-reference files to `zarr`-files packed as `car`-collections and stored on tape.
+Repository containing parquet-reference files to `zarr`-files packed as `car` and `tar`-collections and stored on tape.
 
 ## Application
 This repository contains a look-up table of CIDs of data that is saved on the DKRZ tape archive. A user who is interested in working with the data behind a specific CID should however first try to get the content via the IPFS network or the resources given in the [EUREC4A-Intake catalog](https://github.com/eurec4a/eurec4a-intake) (currently only EUREC4A simulations are referenced here). If the dataset cannot be found, the steps described below can be followed to retrieve the data from the tape archive (access rights necessary).
 
 This repository also offers the possibility to integrate the tape archive into the IPFS network by providing the interface between the content identifiers and the archives on tape that would need to be loaded onto an IPFS node.
 
-## How to access files
-To access the referenced zarr files, the following steps need to be done:
+## Intake catalog
+
+Setup
+```python
+slk_cache = "/scratch/m/m300408/retrieval/" # define slk cache directory
+catalog = "https://raw.githubusercontent.com/observingClouds/tape_archive_index/intake/catalog.yml"
+
+import os
+os.environ["SLK_CACHE"] = slk_cache 
+```
+
+Open catalog with all available/indexed datasets
+```python
+from intake import open_catalog
+cat=open_catalog(catalog)
+sorted(list(cat))
+```
+
+```python
+['EUREC4A_ICON-LES_control_DOM01_radiation_native',
+ 'EUREC4A_ICON-LES_control_DOM01_reff_native',
+ 'EUREC4A_ICON-LES_control_DOM01_surface_native',
+ 'EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords',
+ 'EUREC4A_ICON-LES_control_DOM02_reff_native',
+ 'EUREC4A_ICON-LES_control_DOM02_surface_native',
+...]
+```
+
+Select dataset of interest
+```python
+ds=cat["EUREC4A_ICON-LES_control_DOM01_surface_native"].to_dask()
+```
+The required files for any computations will be retrieved from tape when needed and cached locally.
+
+## Downloading the archived files manually
+Another option is to download the archived files manually from tape. This is currently the preferred option if large portions of the dataset are needed, because retrievals are more sufficiently grouped together.
 
 1. Get the Content-Identifier (CID) of the data of interest
     - e.g. from a source like the eurec4a-intake catalog, or
