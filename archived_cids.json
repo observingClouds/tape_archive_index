@@ -35,14 +35,6 @@
                 "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D",
                 "linux2ipfs": "0297e30"
         },
-	"bafybeiaepgfea7nohq5p3rpqzozzazgjee4y5pthgivq46gqwefjdo6zmq":{
-		"filename": "EUREC4A_ICON-LES_control_DOM01_radiation_native.zarr",
-                "preffs": "zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.preffs::simplecache::https://zenodo.org/api/files/d5ad19f3-d541-475b-9851-223570c8a8ff/preffs.zip",
-		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.cids.json::simplecache::https://zenodo.org/api/files/d5ad19f3-d541-475b-9851-223570c8a8ff/cids.zip",
-                "tape_archive_prefix": "/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/radiation",
-                "linux2ipfs": "0297e30",
-		"comment": "During creation of cars, filename has been EUREC4A_ICON-LES_Control_DOM01_radiation_native.zarr.zstd; bafybeiaepgfea7nohq5p3rpqzozzazgjee4y5pthgivq46gqwefjdo6zmq points to incomplete zarr (all variables missed the last about 100 timesteps, except for time itself. Missing data has been added in additionional cars with numbers 651 - 662. Preffs file includes whole dataset including added cars.)"
-	},
 	"bafybeihhlu37kpqsj75oocol372gbdxhkmtxq7bphayr5rtnypv42soad4":{
                 "filename": "EUREC4A_ICON-LES_control_DOM01_surface_native.zarr",
 		"cids": "zip://EUREC4A_ICON-LES_control_DOM01_surface_native.cids.json::simplecache::https://zenodo.org/api/files/d5ad19f3-d541-475b-9851-223570c8a8ff/cids.zip",
