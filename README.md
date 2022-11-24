@@ -42,7 +42,7 @@ ds=cat["EUREC4A_ICON-LES_control_DOM01_surface_native"].to_dask()
 ```
 The required files for any computations will be retrieved from tape when needed and cached locally.
 
-Note: the package [`slkspec`](https://github.com/observingClouds/slkspec) to be installed in addition to the general intake requirements.
+Note: the package [`slkspec`](https://github.com/observingClouds/slkspec) needs to be installed in addition to the general intake requirements.
 
 ## Downloading the archived files manually
 Another option is to download the archived files manually from tape. This is currently the preferred option if large portions of the dataset are needed, because retrievals are more sufficiently grouped together.
