@@ -61,6 +61,14 @@ sources:
     description: EUREC4A ICON-LES control DOM1 radiation fields
     driver: zarr
 
+  "EUREC4A_ICON-LES_control_DOM02_radiation_native":
+    args:
+      consolidated: true
+      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM02_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/0a9625fd-9503-4385-8c3c-6761b26f6ee8/EUREC4A_ICON-LES_control_DOM02_radiation_native.tar.preffs.zip
+      storage_options: {'preffs':{'prefix':'/work/mh0010/m300408/DVC-test/EUREC4A-ICON/EUREC4A/experiments/EUREC4A/radiation/DOM02/'}}
+    description: EUREC4A ICON-LES control DOM2 radiation fields. This dataset is only locally available on levante.
+    driver: zarr
+
   "EUREC4A_ICON-LES_control_DOM01_reff_native":
     args:
       consolidated: true
