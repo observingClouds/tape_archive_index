@@ -84,6 +84,6 @@
                         "var": ["coords", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_1", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_2", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_3", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_4", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_5", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_6", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_7"]
 		},
 		"preffs":"EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs",
-		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Checksums of local and archived tars matched."
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
 	}
 }
