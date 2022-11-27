@@ -67,5 +67,14 @@
                 },
                 "preffs":"EUREC4A_ICON-LES_highCCN_DOM02_surface_native.tar.preffs",
                 "comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
+	},
+	"EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/RTTOV",
+		"filename_fmt":"EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+                        "var": ["coords", "synsat_rttov_forward_model_1__abi_ir__goes_16__channel_1", "synsat_rttov_forward_model_1__abi_ir__goes_16__channel_2", "synsat_rttov_forward_model_1__abi_ir__goes_16__channel_3", "synsat_rttov_forward_model_1__abi_ir__goes_16__channel_4", "synsat_rttov_forward_model_1__abi_ir__goes_16__channel_5", "synsat_rttov_forward_model_1__abi_ir__goes_16__channel_6", "synsat_rttov_forward_model_1__abi_ir__goes_16__channel_7"]
+		},
+		"preffs":"EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
 	}
 }
