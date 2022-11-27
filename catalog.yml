@@ -134,3 +134,19 @@ sources:
       storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/'}}
     description: EUREC4A ICON-LES control DOM2 synthetic satellite channels
     driver: zarr
+
+   "EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_native":
+    args:
+      consolidated: true
+      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs.zip
+      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/RTTOV/'}}
+    description: EUREC4A ICON-LES highCCN DOM1 synthetic satellite channels
+    driver: zarr
+
+   "EUREC4A_ICON-LES_highCCN_DOM02_RTTOV_native":
+    args:
+      consolidated: true
+      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs.zip
+      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/RTTOV/'}}
+    description: EUREC4A ICON-LES highCCN DOM2 synthetic satellite channels
+    driver: zarr
