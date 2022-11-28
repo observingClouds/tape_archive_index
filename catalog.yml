@@ -101,7 +101,6 @@ sources:
     description: EUREC4A ICON-LES highCCN DOM2 effective radius fields
     driver: zarr
     
-    
   "EUREC4A_ICON-LES_control_DOM01_3D_native":
     args:
       consolidated: true
@@ -110,6 +109,13 @@ sources:
     description: EUREC4A ICON-LES control DOM1 3D fields
     driver: zarr
 
+  "EUREC4A_ICON-LES_highCCN_DOM01_radiation_native":
+    args:
+      consolidated: true
+      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/0aed5cc6-fceb-4e13-9932-3475a4e1adb7/EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.tar.preffs.zip
+      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/radiation/'}}
+    description: EUREC4A ICON-LES highCCN DOM1 radiation fields
+    driver: zarr
 
   "EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords":
     args:
