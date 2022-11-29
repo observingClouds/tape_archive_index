@@ -1,190 +1,260 @@
-description: "DKRZ Tape catalog"
-
+description: DKRZ Tape catalog
 plugins:
   source:
     - module: intake_xarray
-
 sources:
-  "EUREC4A_ICON-LES_highCCN_DOM01_surface_native":
+  EUREC4A_ICON-LES_highCCN_DOM01_surface_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/surface/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/surface/
     description: EUREC4A ICON-LES highCCN DOM1 surface fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_highCCN_DOM02_surface_native":
+  EUREC4A_ICON-LES_highCCN_DOM02_surface_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_surface_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM02_surface_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/surface/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_surface_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM02_surface_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/surface/
     description: EUREC4A ICON-LES highCCN DOM2 surface fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_highCCN_DOM01_3D_native":
+  EUREC4A_ICON-LES_highCCN_DOM01_3D_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D/
     description: EUREC4A ICON-LES highCCN DOM1 3D fields
     driver: zarr
-    
-  "EUREC4A_ICON-LES_highCCN_DOM02_3D_native":
+  EUREC4A_ICON-LES_highCCN_DOM02_3D_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM02_3D_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/3D/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM02_3D_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/3D/
     description: EUREC4A ICON-LES highCCN DOM2 3D fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_control_DOM01_surface_native":
+  EUREC4A_ICON-LES_control_DOM01_surface_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM01_surface_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_surface_native.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/surface/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_surface_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_surface_native.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/surface/
     description: EUREC4A ICON-LES control DOM1 surface fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_control_DOM02_surface_native":
+  EUREC4A_ICON-LES_control_DOM02_surface_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM02_surface_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM02_surface_native.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/surface/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_surface_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM02_surface_native.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/surface/
     description: EUREC4A ICON-LES control DOM2 surface fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_control_DOM01_radiation_native":
+  EUREC4A_ICON-LES_control_DOM01_radiation_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/radiation/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/radiation/
     description: EUREC4A ICON-LES control DOM1 radiation fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_control_DOM02_radiation_native":
+  EUREC4A_ICON-LES_control_DOM02_radiation_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM02_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/0a9625fd-9503-4385-8c3c-6761b26f6ee8/EUREC4A_ICON-LES_control_DOM02_radiation_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'/work/mh0010/m300408/DVC-test/EUREC4A-ICON/EUREC4A/experiments/EUREC4A/radiation/DOM02/'}}
-    description: EUREC4A ICON-LES control DOM2 radiation fields. This dataset is only locally available on levante.
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/0a9625fd-9503-4385-8c3c-6761b26f6ee8/EUREC4A_ICON-LES_control_DOM02_radiation_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            /work/mh0010/m300408/DVC-test/EUREC4A-ICON/EUREC4A/experiments/EUREC4A/radiation/DOM02/
+    description: >-
+      EUREC4A ICON-LES control DOM2 radiation fields. This dataset is only
+      locally available on levante.
     driver: zarr
-
-  "EUREC4A_ICON-LES_control_DOM01_reff_native":
+  EUREC4A_ICON-LES_control_DOM01_reff_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_reff_native.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/reff/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_reff_native.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/reff/
     description: EUREC4A ICON-LES control DOM1 effective radius fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_control_DOM02_reff_native":
+  EUREC4A_ICON-LES_control_DOM02_reff_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM02_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM02_reff_native.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/reff/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM02_reff_native.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/reff/
     description: EUREC4A ICON-LES control DOM2 effective radius fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_highCCN_DOM01_reff_native":
+  EUREC4A_ICON-LES_highCCN_DOM01_reff_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM01_reff_native.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/reff/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM01_reff_native.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/reff/
     description: EUREC4A ICON-LES highCCN DOM1 effective radius fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_highCCN_DOM02_reff_native":
+  EUREC4A_ICON-LES_highCCN_DOM02_reff_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM02_reff_native.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/reff/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM02_reff_native.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/reff/
     description: EUREC4A ICON-LES highCCN DOM2 effective radius fields
     driver: zarr
-    
-  "EUREC4A_ICON-LES_control_DOM01_3D_native":
+  EUREC4A_ICON-LES_control_DOM01_3D_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM01_3D_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_3D_native.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/3D/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_3D_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_3D_native.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/3D/
     description: EUREC4A ICON-LES control DOM1 3D fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_highCCN_DOM01_radiation_native":
+  EUREC4A_ICON-LES_highCCN_DOM01_radiation_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/0aed5cc6-fceb-4e13-9932-3475a4e1adb7/EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/radiation/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/0aed5cc6-fceb-4e13-9932-3475a4e1adb7/EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/radiation/
     description: EUREC4A ICON-LES highCCN DOM1 radiation fields
     driver: zarr
-
-  "EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords":
+  EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/3D/'}}
-    description: EUREC4A ICON-LES control DOM2 3D fields (qr, cloud_num only)
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/3D/
+    description: 'EUREC4A ICON-LES control DOM2 3D fields (qr, cloud_num only)'
     driver: zarr
- 
-   "EUREC4A_ICON-LES_control_DOM01_RTTOV_native":
+  EUREC4A_ICON-LES_control_DOM01_RTTOV_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM01_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/f0dacf1e-dfae-41f2-9dbe-02d7a82709f5/EUREC4A_ICON-LES_control_DOM01_synsat_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/RTTOV/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/f0dacf1e-dfae-41f2-9dbe-02d7a82709f5/EUREC4A_ICON-LES_control_DOM01_synsat_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/RTTOV/
     description: EUREC4A ICON-LES control DOM1 synthetic satellite channels
     driver: zarr
-
-   "EUREC4A_ICON-LES_control_DOM02_RTTOV_native":
+  EUREC4A_ICON-LES_control_DOM02_RTTOV_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM02_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/f0dacf1e-dfae-41f2-9dbe-02d7a82709f5/EUREC4A_ICON-LES_control_DOM02_synsat_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/f0dacf1e-dfae-41f2-9dbe-02d7a82709f5/EUREC4A_ICON-LES_control_DOM02_synsat_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/
     description: EUREC4A ICON-LES control DOM2 synthetic satellite channels
     driver: zarr
-
-   "EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_native":
+  EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/RTTOV/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/RTTOV/
     description: EUREC4A ICON-LES highCCN DOM1 synthetic satellite channels
     driver: zarr
-
-   "EUREC4A_ICON-LES_highCCN_DOM02_RTTOV_native":
+  EUREC4A_ICON-LES_highCCN_DOM02_RTTOV_native:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/RTTOV/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/RTTOV/
     description: EUREC4A ICON-LES highCCN DOM2 synthetic satellite channels
     driver: zarr
-
-   "EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded":
+  EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/RTTOV/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/RTTOV/
     description: Regridded EUREC4A ICON-LES control DOM1 synthetic satellite channels
     driver: zarr
-
-   "EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded":
+  EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/
     description: Regridded EUREC4A ICON-LES control DOM2 synthetic satellite channels
     driver: zarr
-
-   "EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_gridded":
+  EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_gridded:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_gridded.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/RTTOV/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_gridded.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/RTTOV/
     description: Regridded EUREC4A ICON-LES highCCN DOM1 synthetic satellite channels
     driver: zarr
-
-   "EUREC4A_ICON-LES_highCCN_DOM02_RTTOV_gridded":
+  EUREC4A_ICON-LES_highCCN_DOM02_RTTOV_gridded:
     args:
       consolidated: true
-      urlpath: preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM02_RTTOV_gridded.preffs.zip
-      storage_options: {'preffs':{'prefix':'slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/RTTOV/'}}
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM02_RTTOV_gridded.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/RTTOV/
     description: Regridded EUREC4A ICON-LES highCCN DOM2 synthetic satellite channels
     driver: zarr
