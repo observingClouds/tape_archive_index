@@ -69,7 +69,7 @@ Another option is to download the archived files manually from tape. This is cur
     files_to_retrieve = [f for f in files_to_retrieve if isinstance(f,str)]
     ```
 4. Retrieve files from tape
-    Note that the following steps are not possible on the login node and another partition has to be chosen with e.g. `salloc --partition=shared --mem=6GB --nodes=1 --time=02:00:00 --account <ACCOUNT>`
+    Note that the following steps are not possible on the login node and another partition has to be chosen with e.g. `salloc --partition=interactive --mem=6GB --nodes=1 --time=02:00:00 --account <ACCOUNT>`
     ```python
     import re
     import subprocess
