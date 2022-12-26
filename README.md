@@ -117,3 +117,14 @@ Another option is to download the archived files manually from tape. This is cur
     storage_options = {"preffs":{"prefix":"/path/to/directory/with/car/files/"}}
     ds = xr.open_zarr(f"preffs::{metadata["preffs"]}", storage_options=storage_options)
     ```
+
+## Upload entry to zenodo
+The reference files are currently stored on zenodo.
+
+To upload or update a new file to zenodo please contact the maintainer of this repository by opening an issue or pull request. While the reference files can be uploaded to any server and any zenodo repository, we try to keep them all in one place. If you have access to the zenodo repository you find instructions on how to upload a new file to zenodo [here](https://developers.zenodo.org). Basically, you need to
+1. Create an `ACCESS_TOKEN`
+2. Create a new version of the zenodo dataset.
+3. Grep the record number of the new version of the dataset, i.e. the last number in the url, e.g. `7485057` from https://zenodo.org/deposit/7485057
+4. Find out the bucket link: e.g. `curl https://zenodo.org/api/deposit/depositions/7485057?access_token=$ACCESS_TOKEN | jq '.links.bucket'`
+5. Upload the file(s), with `curl --upload-file $LOCAL_FILENAME https://zenodo.org/api/files/25794c67-d85e-45a7-b3cf-032578603fa9/$REMOTE_FILENAME?access_token=$ACCESS_TOKEN`
+6. Publish the dataset and get the links to the newly added file(s). Note, these links are not the same as the one used above for the upload.
