@@ -115,6 +115,17 @@ sources:
             slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/radiation/
     description: EUREC4A ICON-LES control DOM03 2D radiation fields
     driver: zarr
+  EUREC4A_ICON-LES_control_DOM03_radiation-3D_native:
+    args:
+      consolidated: true
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM03_radiation-3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/7a33843b-ca08-4e55-a0f0-eaf63c984f0f/EUREC4A_ICON-LES_control_DOM03_radiation-3D_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/radiation/
+    description: EUREC4A ICON-LES control DOM03 3D radiation fields
+    driver: zarr
   EUREC4A_ICON-LES_control_DOM01_reff_native:
     args:
       consolidated: true
