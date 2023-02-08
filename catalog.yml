@@ -126,6 +126,17 @@ sources:
             slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/reff/
     description: EUREC4A ICON-LES control DOM2 effective radius fields
     driver: zarr
+  EUREC4A_ICON-LES_control_DOM03_reff_native:
+    args:
+      consolidated: true
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM03_reff_native.preffs::simplecache::https://zenodo.org/api/files/ab042f22-b5bc-4667-aa5c-8cdfb91f1edb/EUREC4A_ICON-LES_control_DOM03_reff_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/reff/
+    description: EUREC4A ICON-LES control DOM3 effective radius fields
+    driver: zarr
   EUREC4A_ICON-LES_highCCN_DOM01_reff_native:
     args:
       consolidated: true
