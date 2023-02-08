@@ -50,6 +50,15 @@
 		"preffs":"EUREC4A_ICON-LES_control_DOM02_synsat_native.tar.preffs",
 		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
 	},
+	"EUREC4A_ICON-LES_control_DOM03_RTTOV_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/RTTOV",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM03_synsat_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+                        "var": ["coords", "synsat_rttov_forward_model_3__abi_ir__goes_16__channel_7"]
+		},
+		"preffs":"EUREC4A_ICON-LES_control_DOM03_synsat_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums with archive not yet checked."
+	},
 	"EUREC4A_ICON-LES_highCCN_DOM01_surface_native":{
 		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/surface",
 		"filename_fmt":"EUREC4A_ICON-LES_highCCN_DOM01_surface_native.{var}.[0-9][0-9][0-9].tar",
