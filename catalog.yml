@@ -260,6 +260,17 @@ sources:
             slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM02/RTTOV/
     description: EUREC4A ICON-LES control DOM2 synthetic satellite channels
     driver: zarr
+  EUREC4A_ICON-LES_control_DOM03_RTTOV_native:
+    args:
+      consolidated: true
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM03_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/1148922e-ca76-4f04-a866-c3a8e2e6f73f/EUREC4A_ICON-LES_control_DOM03_synsat_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/RTTOV/
+    description: EUREC4A ICON-LES control DOM3 synthetic satellite channels
+    driver: zarr
   EUREC4A_ICON-LES_highCCN_DOM01_RTTOV_native:
     args:
       consolidated: true
