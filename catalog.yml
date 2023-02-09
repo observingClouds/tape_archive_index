@@ -108,7 +108,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM03_radiation-2D_native.tar.preffs::simplecache::https://zenodo.org/api/files/e215e79c-4612-4a24-a290-d9d3a2f0e9a5/EUREC4A_ICON-LES_control_DOM03_radiation-2D_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM03_radiation-2D_native.tar.preffs::simplecache::https://zenodo.org/api/files/cb1c7d5a-563d-4dd1-b596-4104d2377132/EUREC4A_ICON-LES_control_DOM03_radiation-2D_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
