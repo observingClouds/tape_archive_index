@@ -238,6 +238,17 @@ sources:
             slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/3D/
     description: EUREC4A ICON-LES control DOM3 3D fields
     driver: zarr
+  EUREC4A_ICON-LES_control_DOM03_plev_native:
+    args:
+      consolidated: true
+      urlpath: >-
+        preffs::zip://EUREC4A_ICON-LES_control_DOM03_plev_native.preffs::simplecache::https://zenodo.org/api/files/e215e79c-4612-4a24-a290-d9d3a2f0e9a5/EUREC4A_ICON-LES_control_DOM03_3D_native.tar.preffs.zip
+      storage_options:
+        preffs:
+          prefix: >-
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/plev/
+    description: EUREC4A ICON-LES control DOM3 pressure level fields at 950hPa, 925hPa, 850hPa, 700hPa, 500hPa
+    driver: zarr
   EUREC4A_ICON-LES_control_DOM01_RTTOV_native:
     args:
       consolidated: true
