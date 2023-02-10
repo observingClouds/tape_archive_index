@@ -5,6 +5,33 @@
 		"comment":"qr and cloud_num were missing in the car files of record (bafybeihgzion6gzaide6gifedigfh6h67jlxrbvi5ylhp6dqzqcixugbgq). These variables are included in these indexed tar files. Locally tested for consistency with original nc files.",
 		"preffs":"EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs"
 	},
+	"EUREC4A_ICON-LES_control_DOM03_3D_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/3D",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM03_3D_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+			"var": ["coords", "u", "v", "w", "temp", "theta_v", "rho", "pres", "qr", "qv", "qc", "div"]
+		},
+		"preffs":"EUREC4A_ICON-LES_highCCN_DOM03_3D_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files (minor difference on 2020-02-05 17 and 20 due to inf (original) and nan (tar) data). Checksums of local and archived tars matched."
+	},
+	"EUREC4A_ICON-LES_control_DOM03_plev_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/plev",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM03_3D_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+			"var": ["coords", "u", "v", "w", "temp", "geopot", "qr", "qv", "qc"]
+		},
+		"preffs":"EUREC4A_ICON-LES_highCCN_DOM03_plev_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc. Checksums of local and archived tars matched."
+	},
+	"EUREC4A_ICON-LES_control_DOM03_reff_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/reff",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM03_reff_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+			"var": ["coords", "reff_qc"]
+		},
+		"preffs":"EUREC4A_ICON-LES_highCCN_DOM03_reff_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
+	},
 	"EUREC4A_ICON-LES_highCCN_DOM01_3D_native":{
 		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM01/3D",
 		"filename_fmt":"EUREC4A_ICON-LES_highCCN_DOM01_3D_native.{var}.[0-9][0-9][0-9].tar",
@@ -32,6 +59,33 @@
 		"preffs":"EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs",
 		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
 	},
+	"EUREC4A_ICON-LES_control_DOM03_surface_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/surface",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM03_surface_native.{var}.[0-9][0-9][0-9].tar",
+                "parameters":{
+                        "var": ["coords", "u_10m", "v_10m", "rh_2m", "t_2m", "qv_2m", "t_seasfc", "shfl_s", "lhfl_s", "tqv_dia", "tqc_dia", "rain_gsp_rate", "tot_prec", "clct", "pres_sfc"]
+		},
+		"preffs":"EUREC4A_ICON-LES_control_DOM03_surface_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
+	},
+	"EUREC4A_ICON-LES_control_DOM03_radiation-3D_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/radiation",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM03_radiation-3D_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+                        "var": ["coords", "ddt_temp_radsw", "ddt_temp_radlw", "lwflx_dn", "lwflx_dn_clr", "lwflx_up", "lwflx_up_clr", "swflx_dn", "swflx_dn_clr", "swflx_up", "swflx_up_clr"]
+		},
+		"preffs":"EUREC4A_ICON-LES_control_DOM03_radiation-3D_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
+	},
+	"EUREC4A_ICON-LES_control_DOM03_radiation-2D_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/radiation",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM03_radiation-2D_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+                        "var": ["coords", "thb_t", "sou_t", "sob_t", "sod_t"]
+		},
+		"preffs":"EUREC4A_ICON-LES_control_DOM03_radiation-2D_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
+	},
 	"EUREC4A_ICON-LES_control_DOM01_RTTOV_native":{
 		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM01/RTTOV",
 		"filename_fmt":"EUREC4A_ICON-LES_control_DOM01_synsat_native.{var}.[0-9][0-9][0-9].tar",
@@ -48,6 +102,15 @@
                         "var": ["coords", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_1", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_2", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_3", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_4", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_5", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_6", "synsat_rttov_forward_model_2__abi_ir__goes_16__channel_7"]
 		},
 		"preffs":"EUREC4A_ICON-LES_control_DOM02_synsat_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
+	},
+	"EUREC4A_ICON-LES_control_DOM03_RTTOV_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/RTTOV",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM03_synsat_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+                        "var": ["coords", "synsat_rttov_forward_model_3__abi_ir__goes_16__channel_7"]
+		},
+		"preffs":"EUREC4A_ICON-LES_control_DOM03_synsat_native.tar.preffs",
 		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files. Checksums of local and archived tars matched."
 	},
 	"EUREC4A_ICON-LES_highCCN_DOM01_surface_native":{
