@@ -14,6 +14,15 @@
 		"preffs":"EUREC4A_ICON-LES_highCCN_DOM03_3D_native.tar.preffs",
 		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc files (minor difference on 2020-02-05 17 and 20 due to inf (original) and nan (tar) data). Checksums of local and archived tars matched."
 	},
+	"EUREC4A_ICON-LES_control_DOM03_plev_native":{
+		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/plev",
+		"filename_fmt":"EUREC4A_ICON-LES_control_DOM03_3D_native.{var}.[0-9][0-9][0-9].tar",
+		"parameters":{
+			"var": ["coords", "u", "v", "w", "temp", "geopot", "qr", "qv", "qc"]
+		},
+		"preffs":"EUREC4A_ICON-LES_highCCN_DOM03_plev_native.tar.preffs",
+		"comment":"Each variable is written to their own set of tar files. The var placeholder in the `filename_fmt` are given in the parameters section. Locally tested for consistency with original nc. Checksums of local and archived tars matched."
+	},
 	"EUREC4A_ICON-LES_control_DOM03_reff_native":{
 		"tape_archive_prefix":"/arch/mh0010/m300408/experiments/EUREC4A/control/output/DOM03/reff",
 		"filename_fmt":"EUREC4A_ICON-LES_control_DOM03_reff_native.{var}.[0-9][0-9][0-9].tar",
