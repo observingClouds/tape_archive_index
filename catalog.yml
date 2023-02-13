@@ -211,7 +211,7 @@ sources:
       storage_options:
         preffs:
           prefix: >-
-            /work/mh0010/fromMistral/mh0010/m300408/DVC-test/EUREC4A-ICON/EUREC4A/experiments/EUREC4A/radiation/DOM02/
+            slk:///arch/mh0010/m300408/experiments/EUREC4A/highCCN/output/DOM02/radiation/
     description: >-
       EUREC4A ICON-LES control DOM2 radiation fields.
     driver: zarr
