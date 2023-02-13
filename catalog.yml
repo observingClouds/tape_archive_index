@@ -207,14 +207,13 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/4128da6e-df51-427b-846e-a6b09ad0d265/EUREC4A_ICON-LES_highCCN_DOM02_radiation_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_highCCN_DOM02_radiation_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
             /work/mh0010/fromMistral/mh0010/m300408/DVC-test/EUREC4A-ICON/EUREC4A/experiments/EUREC4A/radiation/DOM02/
     description: >-
-      EUREC4A ICON-LES control DOM2 radiation fields. This dataset is only
-      locally available on levante.
+      EUREC4A ICON-LES control DOM2 radiation fields.
     driver: zarr
   EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords:
     args:
