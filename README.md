@@ -13,7 +13,7 @@ This repository also offers the possibility to integrate the tape archive into t
 ### Setup
 ```python
 slk_cache = "/scratch/m/m300408/retrieval/" # define slk cache directory
-catalog = "https://raw.githubusercontent.com/observingClouds/tape_archive_index/intake/catalog.yml"
+catalog = "https://raw.githubusercontent.com/observingClouds/tape_archive_index/main/catalog.yml"
 
 import os
 os.environ["SLK_CACHE"] = slk_cache 
