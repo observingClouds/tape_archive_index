@@ -8,7 +8,7 @@ cat = intake.open_catalog("catalog.yml")
 
 def remove_metadata(df):
     df["tmp"] = df.index.str.findall(".z")
-    df_chunks_only = df[df["tmp"].apply(lambda l: l == list())].copy()
+    df_chunks_only = df[df["tmp"].apply(lambda f: f == list())].copy()
     del df_chunks_only["tmp"]
     return df_chunks_only
 
