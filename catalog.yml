@@ -7,7 +7,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs::simplecache::https://zenodo.org/api/files/8f686a23-fbef-4e16-9acb-562204d6f5fc/EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_highCCN_DOM01_surface_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -18,7 +18,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_surface_native.tar.preffs::simplecache::https://zenodo.org/api/files/781728e3-e1a6-4617-b29c-e4e944f414a7/EUREC4A_ICON-LES_highCCN_DOM02_surface_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_surface_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_highCCN_DOM02_surface_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -29,7 +29,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_highCCN_DOM01_3D_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -40,7 +40,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM02_3D_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_highCCN_DOM02_3D_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -51,7 +51,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM01_surface_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_surface_native.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_surface_native.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM01_surface_native.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -62,7 +62,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM02_surface_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM02_surface_native.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_surface_native.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM02_surface_native.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -84,7 +84,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM01_radiation_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -95,7 +95,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM02_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/0a9625fd-9503-4385-8c3c-6761b26f6ee8/EUREC4A_ICON-LES_control_DOM02_radiation_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM02_radiation_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -108,7 +108,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM03_radiation-2D_native.tar.preffs::simplecache::https://zenodo.org/api/files/cb1c7d5a-563d-4dd1-b596-4104d2377132/EUREC4A_ICON-LES_control_DOM03_radiation-2D_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM03_radiation-2D_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM03_radiation-2D_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -119,7 +119,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM03_radiation-3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/7a33843b-ca08-4e55-a0f0-eaf63c984f0f/EUREC4A_ICON-LES_control_DOM03_radiation-3D_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM03_radiation-3D_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM03_radiation-3D_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -130,7 +130,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_reff_native.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM01_reff_native.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -141,7 +141,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM02_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM02_reff_native.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_reff_native.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM02_reff_native.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -163,7 +163,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM01_reff_native.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_reff_native.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_highCCN_DOM01_reff_native.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -174,7 +174,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_reff_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_highCCN_DOM02_reff_native.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_reff_native.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_highCCN_DOM02_reff_native.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -185,7 +185,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM01_3D_native.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM01_3D_native.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_3D_native.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM01_3D_native.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -196,7 +196,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/0aed5cc6-fceb-4e13-9932-3475a4e1adb7/EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_highCCN_DOM01_radiation_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -219,7 +219,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs::simplecache::https://zenodo.org/api/files/722d3d67-a6ca-4bdb-868c-4fe8aa7ee835/EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM02_3D_native.qr+cloud_num+coords.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -252,7 +252,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM01_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/f0dacf1e-dfae-41f2-9dbe-02d7a82709f5/EUREC4A_ICON-LES_control_DOM01_synsat_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM01_synsat_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -263,7 +263,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM02_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/f0dacf1e-dfae-41f2-9dbe-02d7a82709f5/EUREC4A_ICON-LES_control_DOM02_synsat_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM02_synsat_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -274,7 +274,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM03_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/1148922e-ca76-4f04-a866-c3a8e2e6f73f/EUREC4A_ICON-LES_control_DOM03_synsat_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM03_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM03_synsat_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -285,7 +285,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_highCCN_DOM01_synsat_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -296,7 +296,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_highCCN_DOM02_synsat_native.tar.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -307,7 +307,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM01_RTTOV_gridded.preffs.zip
       storage_options:
         preffs:
           prefix: >-
@@ -318,7 +318,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/1ecda66a-ff27-4001-8a47-3296f375374c/EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM02_RTTOV_gridded.preffs.zip
       storage_options:
         preffs:
           prefix: >-
