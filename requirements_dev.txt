@@ -9,3 +9,7 @@ pytest
 requests
 aiohttp
 pre-commit
+intake
+intake-xarray
+fastparquet
+zarr
