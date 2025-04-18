@@ -51,7 +51,7 @@ sources:
     args:
       consolidated: true
       urlpath: >-
-        preffs::zip://EUREC4A_ICON-LES_control_DOM01_surface_native.preffs::simplecache::https://zenodo.org/api/files/a4fa2bcc-85cd-4651-90a2-5667fbd04af0/EUREC4A_ICON-LES_control_DOM01_surface_native.preffs.zip
+        preffs::zip://EUREC4A_ICON-LES_control_DOM01_surface_native.preffs::simplecache::https://zenodo.org/records/7634402/files/EUREC4A_ICON-LES_control_DOM01_surface_native.preffs.zip
       storage_options:
         preffs:
           prefix: >-
